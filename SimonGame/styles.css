@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.levelHead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 50px auto;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+  width: auto;
+  margin: auto 100px;
+}
+
+.levelHead button{
+  transform: translate(-10px, -10px);
+  transition: transform 200ms;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 50%;
+  display: none;
+}
+.restartBtn{
+  background: linear-gradient(to right, #78C1F3, #068FFF);
+}
+.pauseBtn{
+  background: linear-gradient(to right, #526D82, #27374D);
+}
+.restartBtn:hover{
+  transform: translate(0, 0);
+}
+.pauseBtn:hover{
+  transform: translate(0, 0);
+}
+
+.backBtn{
+  background: linear-gradient(to right, #1A5D1A, #8EAC50);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  display: none;
+}
+
+
+.btnStartParent{
+    background: #0D1282;
+    width: 270px;
+    height: 100px;
+    margin: 50px auto;
+}
+.btnStart{
+  background: linear-gradient(to right, #7A9D54, green);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3rem;
+
+  transform: translate(-20px, -20px);
+  transition: transform 200ms;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnStart:hover{
+  transform: translate(0, 0);
+}
+
+
+
+.levels{
+  box-sizing: border-box;
+  width: 66%;
+  height: 200px;
+  margin: 100px auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.levels button{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+
+  background: linear-gradient(to right, #35A29F, #1D5B79);
+  transition: transform 200ms;
+  width: 22%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.levels button:hover{
+  transform: scale(0.9);
+}
+@media(max-width: 1235px){
+  .levels button{
+    font-size: 0.6rem;
+  }
+}
+@media(max-width: 790px) {
+  .levels button {
+    font-size: 0.4rem;
+  }
+}
+
+
+
+.container {
+  display: none;
+  width: 50%;
+  margin: 40px auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  pointer-events: none;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 15px;
+  right: 44%;
+}
+

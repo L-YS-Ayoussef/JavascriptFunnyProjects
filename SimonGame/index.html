@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="description" content="Experience the classic Simon game - test your memory and reflexes! Follow the pattern of lights and sounds, challenging yourself to remember and repeat. Improve your cognitive skills and have fun with this timeless electronic memory game.">
+  <title>Simon Game: Rules, Strategies, and Tips | NodeSprint</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="../Simon Game/SimonIcon.jpg" rel="icon" />
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4506311763132614"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <button class="backBtn"><i class="bi bi-arrow-left" id="backIcon" style="font-size: 30px; font-weight: 400;"></i></button>
+  <div class="levelHead">
+    <h1 id="level-title">Welcome To Simon Game</h1>
+    <button class="pauseBtn"><i class="bi bi-pause" id="pauseIcon" style="font-size: 30px;  font-weight: 400;"></i></button>
+    <button class="restartBtn"><i id="restartIcon" class="bi bi-arrow-counterclockwise"  style="font-size: 30px;  font-weight: 400;"></i></button>
+  </div>
+  
+  <div class="btnStartParent">
+    <button class="btnStart">Start Game</button>
+  </div>
+  
+  <div class="levels">
+    <button class="beginner">Beginner</button>
+    <button class="intermediate">Intermediate</button>
+    <button class="advanced">Advanced</button>
+  </div>
+
+  <div class="container">
+    <div lass="row">
+      <div type="button" id="green" class="btn green"></div>
+      <div type="button" id="red" class="btn red"></div>
+    </div>
+
+    <div class="row">
+      <div type="button" id="yellow" class="btn yellow"></div>
+      <div type="button" id="blue" class="btn blue"></div>
+    </div>
+
+
+  </div>
+
+  <footer style="color: #FAF0D7;">
+    &copy; copyright <span style="color: #6528F7;"><strong>NodeSprint</strong></span> 2023
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>   
+  <script src="game.js"></script>
+</body>
+
+</html>
