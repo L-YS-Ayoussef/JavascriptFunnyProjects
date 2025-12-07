@@ -28,3 +28,4 @@ You can play the game here:
 
 This project is **open-source** and available for anyone to use, modify, and distribute.
 
+**Copyright © 2023 Chameleon Tech** 
