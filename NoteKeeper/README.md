@@ -14,10 +14,11 @@ A simple **Single Page Application (SPA)** built with **React.js** for keeping n
 
 ## 📸 Page Application  
 
-![Page Application](https://github.com/L-YS-Ayoussef/NoteKeeper/blob/master/Screenshot1.png)  
+![Page Application](Screenshot1.png)  
 
 ---
 
 ## 📜 License  
 
 This project is **open-source** and available for anyone to use, modify, and distribute.
+**Copyright © 2023 Chameleon Tech** 
