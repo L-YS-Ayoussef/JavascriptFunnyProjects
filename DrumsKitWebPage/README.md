@@ -14,6 +14,12 @@ A funny and dynamic web page where you can unleash your musical creativity by pl
 
 ---
 
+## 📸 Page Application  
+
+![Page Application](Screenshot1.png)  
+
+---
+
 ## 📜 License  
 
 This project is **open-source** and available for anyone to use, modify, and distribute.
