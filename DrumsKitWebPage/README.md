@@ -17,5 +17,6 @@ A funny and dynamic web page where you can unleash your musical creativity by pl
 ## 📜 License  
 
 This project is **open-source** and available for anyone to use, modify, and distribute.
+**Copyright © 2023 Chameleon Tech** 
 
 
